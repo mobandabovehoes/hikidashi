@@ -10,7 +10,7 @@ export const NewsContextProvider = (props) => {
   useEffect(() => {
     axios
       .get(
-        `${proxyUrl}https://newsapi.org/v2/top-headlines?country=jp&apiKey=${apiKey}`
+        `${proxyUrl}newsapi.org/v2/top-headlines?country=jp&apiKey=${apiKey}`
       )
       .then((response) => setData(response.data))
       .catch((error) => console.log(error));

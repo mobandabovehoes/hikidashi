@@ -6,7 +6,7 @@ function NewsArticle({ data }) {
       <img src={data.urlToImage} alt="" />
       <h4 className="news__title">{data.title}</h4>
       <Button>
-        <a href={data.url} target="_blank" rel="noreferrer noopener">
+        <a href={data.url} >
           読む
         </a>
       </Button>

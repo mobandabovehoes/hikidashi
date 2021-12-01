@@ -18,27 +18,27 @@ function Home() {
       </div>
 
       <div className="home__body">
-        <Link to="/books" className="book__info">
+        <Link to="https://kirinuki-matome.netlify.app/books" className="book__info">
           <h3>Books </h3>
           <MenuBookIcon className="menu__book__icon" />
           <p>ひろゆき、中田敦彦、メンタリストだいご、おすすめ本。</p>
         </Link>
-        <Link to="/izaka" className="izaka__info">
+        <Link to="https://kirinuki-matome.netlify.app/izaka" className="izaka__info">
           <h3>つぶやき</h3>
           <PeopleIcon className="izaka__icon" />
           <p>最新情報</p>
         </Link>
-        <Link to="/blog" className="blog__info">
+        <Link to="https://kirinuki-matome.netlify.app/blog" className="blog__info">
           <h3>Blog</h3>
           <BookIcon className="blog__icon" />
           <p>旅行、食事、アメリカ留学</p>
         </Link>
-        <Link to="/news" className="news__info">
+        <Link to="https://kirinuki-matome.netlify.app/news" className="news__info">
           <h3>時事ネタ</h3>
           <ArticleIcon className="news__icon" />
           <p>ばずってるニュース</p>
         </Link>
-        <Link to="/googletrends" className="googletrends__info">
+        <Link to="https://kirinuki-matome.netlify.app/googletrends" className="googletrends__info">
           <h3>GoogleTrends</h3>
           <TrendingUpIcon className="googletrends__icon" />
           <p>Googleでバズってるなう</p>

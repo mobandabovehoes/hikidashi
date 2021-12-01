@@ -21,23 +21,23 @@ function App() {
             <Header />
             <Home />
           </Route>
-          <Route exact path="https://kirinuki-matome.netlify.app/books">
+          <Route exact path="/books">
             <Header />
             <Booklist />
           </Route>
-          <Route path="https://kirinuki-matome.netlify.app/nakata">
+          <Route path="/nakata">
             <Header />
             <Booklistnakata />
           </Route>
-          <Route exact path="https://kirinuki-matome.netlify.app/izaka">
+          <Route exact path="/izaka">
             <Header />
             <Izaka />
           </Route>
-          <Route exact path="https://kirinuki-matome.netlify.app/blog">
+          <Route exact path="/blog">
             <Header />
             <Blog />
           </Route>
-          <Route exact path="https://kirinuki-matome.netlify.app/news">
+          <Route exact path="/news">
             <Header />
             <NewsContextProvider>
               <News />

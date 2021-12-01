@@ -6,7 +6,7 @@
    return (
      <div className="blog">
        <div className="blog__title">
-         <h1>個人的なブログ書くよ。。。</h1>
+         <h1>ブログ</h1>
        </div>
 
        <Iframe

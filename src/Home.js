@@ -38,7 +38,7 @@ function Home() {
           <ArticleIcon className="news__icon" />
           <p>ばずってるニュース</p>
         </Link>
-        <Link to="https://kirinuki-matome.netlify.app/googletrends" className="googletrends__info">
+        <Link to="/googletrends" className="googletrends__info">
           <h3>GoogleTrends</h3>
           <TrendingUpIcon className="googletrends__icon" />
           <p>Googleでバズってるなう</p>

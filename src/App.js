@@ -21,23 +21,23 @@ function App() {
             <Header />
             <Home />
           </Route>
-          <Route exact path="/books">
+          <Route exact path="https://kirinuki-matome.netlify.app/books">
             <Header />
             <Booklist />
           </Route>
-          <Route path="/nakata">
+          <Route path="https://kirinuki-matome.netlify.app/nakata">
             <Header />
             <Booklistnakata />
           </Route>
-          <Route exact path="/izaka">
+          <Route exact path="https://kirinuki-matome.netlify.app/izaka">
             <Header />
             <Izaka />
           </Route>
-          <Route exact path="/blog">
+          <Route exact path="https://kirinuki-matome.netlify.app/blog">
             <Header />
             <Blog />
           </Route>
-          <Route exact path="/news">
+          <Route exact path="https://kirinuki-matome.netlify.app/news">
             <Header />
             <NewsContextProvider>
               <News />
@@ -61,21 +61,13 @@ function App() {
                 keyword="アニメ"
                 url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
               />
-              <GoogleTrends
-                type="RELATED_QUERIES"
-                keyword="株"
-                url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
-              />
+              
               <GoogleTrends
                 type="RELATED_QUERIES"
                 keyword="テクノロジー"
                 url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
               />
-              <GoogleTrends
-                type="RELATED_QUERIES"
-                keyword="銘柄"
-                url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
-              />
+              
             </div>
           </Route>
         </Switch>

@@ -12,7 +12,7 @@ export const NewsContextProvider = (props) => {
 
   useEffect(() => {
     axios
-      .get(`https://newsapi.org/v2/top-headlines?country=jp&apiKey=${apiKey}`)
+      .get(`https://kirinuki-matome.netlify.app/news/v2/top-headlines?country=jp&apiKey=${apiKey}`)
       .then((response) => setData(response.data))
       .catch((error) => console.log(error));
   }, []);

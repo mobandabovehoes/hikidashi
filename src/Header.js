@@ -31,7 +31,7 @@ function Header() {
         Home
         <FlutterDashIcon/>
       </Link>
-      <Link to="/books">
+      <Link to="https://kirinuki-matome.netlify.app/books">
         <Button
           id="fade-button"
           aria-controls="fade-menu"
@@ -52,30 +52,28 @@ function Header() {
           onClose={handleClose}
           TransitionComponent={Fade}
         >
-          <Link to="/books">
+          <Link to="https://kirinuki-matome.netlify.app/books">
             <MenuItem onClick={handleClose}>ひろゆき</MenuItem>
           </Link>
-          <Link to="/nakata">
+          <Link to="https://kirinuki-matome.netlify.app/nakata">
             <MenuItem onClick={handleClose}>中田敦彦</MenuItem>
           </Link>
-          <Link to="/daigo">
-            <MenuItem onClick={handleClose}>メンタリストだいご</MenuItem>
-          </Link>
+           
         </Menu>
       </Link>
-      <Link to="/izaka">
+      <Link to="https://kirinuki-matome.netlify.app/izaka">
         つぶやき
         <PeopleIcon />
       </Link>
-      <Link to="/blog">
+      <Link to="https://kirinuki-matome.netlify.app/blog">
         Blog
         <BookIcon />
       </Link>
-      <Link to="/news">
+      <Link to="https://kirinuki-matome.netlify.app/news">
         News
         <ArticleIcon />
       </Link>
-      <Link to="/googletrends">
+      <Link to="https://kirinuki-matome.netlify.app/googletrends">
        GoogleTrends
         <TrendingUpIcon/>
       </Link>

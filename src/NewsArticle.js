@@ -10,8 +10,6 @@ function NewsArticle({ data }) {
           読む
         </a>
       </Button>
-      <span className="news__author">{data.author}</span>  
-      <span className="news__published">{data.publishedAt}</span>
     </div>
   );
 }

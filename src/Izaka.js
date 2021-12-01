@@ -1,5 +1,5 @@
 import React from 'react'
-import { TwitterTweetEmbed } from "react-twitter-embed";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 import "./Izaka.css";
  
 function Izaka() {
@@ -9,10 +9,10 @@ function Izaka() {
         <h1>つぶやき。</h1>
       </div>
 
-      <TwitterTweetEmbed
-        // Here goes your copied ID.
-        tweetId={"1458042395870711808"}
-        // Style options goes here:
+     <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="elonmusk"
+        options={{ height: 400 }}
       />
 
   

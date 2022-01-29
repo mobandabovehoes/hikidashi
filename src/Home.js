@@ -2,7 +2,7 @@ import React from 'react'
 // import VideoPlayer from "react-background-video-player";
 import "./Home.css";
 import BookIcon from "@mui/icons-material/Book";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
+import CelebrationIcon from "@mui/icons-material/Celebration";
 import PeopleIcon from "@mui/icons-material/People";
 import { Link } from "react-router-dom";
 import ArticleIcon from "@mui/icons-material/Article";
@@ -18,12 +18,12 @@ function Home() {
 
       <div className="home__body">
         <Link to="/books" className="book__info">
-          <h3>Books</h3>
-          <MenuBookIcon className="menu__book__icon" />
+          <h3>ENTERTAINMENT</h3>
+          <CelebrationIcon className="menu__book__icon" />
           <p>Books and Movies</p>
         </Link>
         <Link to="/izaka" className="izaka__info">
-          <h3>Tweets</h3>
+          <h3>TWEETS</h3>
           <PeopleIcon className="izaka__icon" />
           <p>What's happening</p>
         </Link>
@@ -33,7 +33,7 @@ function Home() {
           <p>Youtube, Note, Twitter, Instagram</p>
         </Link>
         <Link to="/news" className="news__info">
-          <h3>News</h3>
+          <h3>NEWS</h3>
           <ArticleIcon className="news__icon" />
           <p>news</p>
         </Link>
@@ -52,3 +52,4 @@ function Home() {
 }
 
 export default Home
+

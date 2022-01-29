@@ -10,7 +10,6 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Fade from "@mui/material/Fade";
 import ArticleIcon from "@mui/icons-material/Article";
-import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -62,7 +61,7 @@ function Header() {
         </Menu>
       </Link>
       <Link to="/izaka">
-        つぶやき
+        Tweets
         <PeopleIcon />
       </Link>
       <Link to="/blog">
@@ -72,10 +71,6 @@ function Header() {
       <Link to="/news">
         News
         <ArticleIcon />
-      </Link>
-      <Link to="/googletrends">
-       GoogleTrends
-        <TrendingUpIcon/>
       </Link>
     </div>
   );

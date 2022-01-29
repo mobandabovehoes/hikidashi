@@ -3,7 +3,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import FlutterDashIcon from "@mui/icons-material/FlutterDash";
 import PublicIcon from "@mui/icons-material/Public";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
+import CelebrationIcon from "@mui/icons-material/Celebration";
 import PeopleIcon from "@mui/icons-material/People";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
@@ -29,7 +29,7 @@ function Header() {
   return (
     <div className="header">
       <Link to="/">
-        Home
+        HOME
         <FlutterDashIcon/>
       </Link>
       <Link to="/books">
@@ -40,8 +40,8 @@ function Header() {
           aria-expanded={open ? "true" : undefined}
           onClick={handleClick}
         >
-          Books
-          <MenuBookIcon />
+          ENTERTAINMENT
+          <CelebrationIcon />
         </Button>
         <Menu
           id="fade-menu"
@@ -62,7 +62,7 @@ function Header() {
         </Menu>
       </Link>
       <Link to="/izaka">
-        Tweets
+        TWEETS
         <PeopleIcon />
       </Link>
       <Link to="/blog">
@@ -70,7 +70,7 @@ function Header() {
         <PublicIcon />
       </Link>
       <Link to="/news">
-        News
+        NEWS
         <ArticleIcon />
       </Link>
     </div>
@@ -78,3 +78,4 @@ function Header() {
 }
 
 export default Header;
+

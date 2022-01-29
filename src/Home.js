@@ -6,7 +6,7 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import PeopleIcon from "@mui/icons-material/People";
 import { Link } from "react-router-dom";
 import ArticleIcon from "@mui/icons-material/Article";
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+
 function Home() {
   return (
     <div className="home">
@@ -37,13 +37,7 @@ function Home() {
           <h3>時事ネタ</h3>
           <ArticleIcon className="news__icon" />
           <p>ばずってるニュース</p>
-        </Link>
-        <Link to="/googletrends" className="googletrends__info">
-          <h3>GoogleTrends</h3>
-          <TrendingUpIcon className="googletrends__icon" />
-          <p>Googleでバズってるなう</p>
-        </Link>
-        　
+        </Link> 　
       </div>
 
       {/* <VideoPlayer 

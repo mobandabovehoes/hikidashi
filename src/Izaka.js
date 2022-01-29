@@ -6,17 +6,24 @@ function Izaka() {
   return (
     <div className="izaka">
       <div className="izaka__title">
-        <h1>つぶやき。</h1>
+        <h1>Tweets</h1>
       </div>
 
-     <TwitterTimelineEmbed
+      <TwitterTimelineEmbed
         sourceType="profile"
-        screenName="elonmusk"
+        screenName="GoogleTrends"
         options={{ height: 400 }}
       />
-
-  
-      
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="zerohedge"
+        options={{ height: 400 }}
+      />
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="nikkei"
+        options={{ height: 400 }}
+      />
     </div>
   );
 }

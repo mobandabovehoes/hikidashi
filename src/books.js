@@ -44,7 +44,7 @@ export const data = [
 
 export const nakata__data = [
   {
-    id: 4,
+    id: 0,
     img: "https://blogimg.goo.ne.jp/user_image/64/2d/6bf25abd5095153ffea31e3d3f1ffc63.jpg",
     title: "オザークへようこそ",
     author: "Netflix",

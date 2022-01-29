@@ -6,7 +6,7 @@ export const NewsContext = createContext();
 export const NewsContextProvider = (props) => {
   const [data, setData] = useState();
   const apiKey = "9793cd5b524345e7923d0a7820669fa6";
-  const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+  const proxyUrl = "https://corsanywhere.herokuapp.com/";
 
 
  useEffect(() => {

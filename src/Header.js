@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import FlutterDashIcon from "@mui/icons-material/FlutterDash";
-import BookIcon from "@mui/icons-material/Book";
+import PublicIcon from "@mui/icons-material/Public";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import PeopleIcon from "@mui/icons-material/People";
 import Button from "@mui/material/Button";
@@ -10,6 +10,8 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Fade from "@mui/material/Fade";
 import ArticleIcon from "@mui/icons-material/Article";
+
+
 function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -57,7 +59,6 @@ function Header() {
           <Link to="/nakata">
             <MenuItem onClick={handleClose}>中田敦彦</MenuItem>
           </Link>
-           
         </Menu>
       </Link>
       <Link to="/izaka">
@@ -65,8 +66,8 @@ function Header() {
         <PeopleIcon />
       </Link>
       <Link to="/blog">
-        Blog
-        <BookIcon />
+        SNS
+        <PublicIcon />
       </Link>
       <Link to="/news">
         News

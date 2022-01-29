@@ -18,7 +18,7 @@ function Home() {
 
       <div className="home__body">
         <Link to="/books" className="book__info">
-          <h3>ENTERTAINMENT</h3>
+          <h3>Books/Movies</h3>
           <CelebrationIcon className="menu__book__icon" />
           <p>Books and Movies</p>
         </Link>

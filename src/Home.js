@@ -24,17 +24,17 @@ function Home() {
           <p>ひろゆき、中田敦彦、メンタリストだいご、おすすめ本。</p>
         </Link>
         <Link to="/izaka" className="izaka__info">
-          <h3>つぶやき</h3>
+          <h3>Tweets</h3>
           <PeopleIcon className="izaka__icon" />
           <p>最新情報</p>
         </Link>
         <Link to="/blog" className="blog__info">
-          <h3>Blog</h3>
+          <h3>SNS</h3>
           <BookIcon className="blog__icon" />
-          <p>旅行、食事、アメリカ留学</p>
+          <p>Youtube, Note, Twitter, Instagram</p>
         </Link>
         <Link to="/news" className="news__info">
-          <h3>時事ネタ</h3>
+          <h3>News</h3>
           <ArticleIcon className="news__icon" />
           <p>ばずってるニュース</p>
         </Link> 　

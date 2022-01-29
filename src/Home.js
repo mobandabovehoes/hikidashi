@@ -6,12 +6,11 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import PeopleIcon from "@mui/icons-material/People";
 import { Link } from "react-router-dom";
 import ArticleIcon from "@mui/icons-material/Article";
-
 function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <h1 className="hello">Hello...</h1>
+        <h1 className="hello">Hello</h1>
         <div>
           <img src="DSC00200.JPG" alt="SantaBarbaraBeach" />
         </div>
@@ -19,7 +18,7 @@ function Home() {
 
       <div className="home__body">
         <Link to="/books" className="book__info">
-          <h3>Books </h3>
+          <h3>Books</h3>
           <MenuBookIcon className="menu__book__icon" />
           <p>ひろゆき、中田敦彦、メンタリストだいご、おすすめ本。</p>
         </Link>
@@ -37,7 +36,7 @@ function Home() {
           <h3>News</h3>
           <ArticleIcon className="news__icon" />
           <p>ばずってるニュース</p>
-        </Link> 　
+        </Link>
       </div>
 
       {/* <VideoPlayer 

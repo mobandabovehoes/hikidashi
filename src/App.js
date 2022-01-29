@@ -9,7 +9,7 @@ import Blog from "./Blog";
 import Izaka from "./Izaka";
 import News from "./News";
 import { NewsContextProvider } from "./NewsContext";
-import GoogleTrends from "./GoogleTrends";
+　
  
 
 function App() {
@@ -42,33 +42,6 @@ function App() {
             <NewsContextProvider>
               <News />
             </NewsContextProvider>
-          </Route>
-          <Route exact path="/googletrends">
-            <Header />
-            <div id="widget">
-              <GoogleTrends
-                type="RELATED_QUERIES"
-                keyword="ネットフリックス"
-                url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
-              />
-              <GoogleTrends
-                type="RELATED_QUERIES"
-                keyword="映画"
-                url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
-              />
-              <GoogleTrends
-                type="RELATED_QUERIES"
-                keyword="アニメ"
-                url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
-              />
-              
-              <GoogleTrends
-                type="RELATED_QUERIES"
-                keyword="テクノロジー"
-                url="https://ssl.gstatic.com/trends_nrtr/2674_RC03/embed_loader.js"
-              />
-              
-            </div>
           </Route>
         </Switch>
       </div>

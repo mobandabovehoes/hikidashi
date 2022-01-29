@@ -40,7 +40,7 @@ function Header() {
           aria-expanded={open ? "true" : undefined}
           onClick={handleClick}
         >
-          ENTERTAINMENT
+          BM
           <CelebrationIcon />
         </Button>
         <Menu

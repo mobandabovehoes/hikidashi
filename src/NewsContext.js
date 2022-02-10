@@ -6,14 +6,14 @@ export const NewsContext = createContext();
 export const NewsContextProvider = (props) => {
   const [data, setData] = useState();
   const apiKey = "9793cd5b524345e7923d0a7820669fa6";
-  
+  const heroku = "https://corsanywhere.herokuapp.com/";
   
 
 
  useEffect(() => {
     axios
       .get(
-        `https://newsapi.org/v2/top-headlines?country=jp&apiKey=${apiKey}`
+        `${heroku}https://newsapi.org/v2/top-headlines?country=jp&apiKey=${apiKey}`
       )
       .then((response) => setData(response.data))
       .catch((error) =>

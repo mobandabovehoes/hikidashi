@@ -29,6 +29,16 @@ function Izaka() {
         screenName="kyodo_official"
         options={{ height: 400 }}
       />
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="sak_07_"
+        options={{ height: 400 }}
+      />
+      <TwitterTimelineEmbed
+        sourceType="profile"
+        screenName="Fxhedgers"
+        options={{ height: 400 }}
+      />
     </div>
   );
 }
